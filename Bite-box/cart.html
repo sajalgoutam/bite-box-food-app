@@ -4,9 +4,158 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>cart</title>
+    <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/eb4651b9b8.js" crossorigin="anonymous"></script>
+        <link rel="icon" href="/Bite-box/imeges/favicon.ico" type="image/x-icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montenegrin+Gothic+One&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>cart</h1>
+    <!-- this is header section -->
+         <header>
+            <nav>
+                <div>
+                    <!--logo-->
+                    <!-- <h2>Bite<span style="color: red;">Box</span></h2> -->
+
+                     <img src="/Bite-box/imeges/Bite box logo.png" alt="logo" width="100px">
+            
+
+                
+                    <!--menu-->
+
+                  
+                    <ul>
+                        <li><a href="Home.html"class="action">Home</a></li>
+                        <li><a href="Menu.html">Menu</a></li>
+                        <li><a href="Bite deals.html">Bite Deals</a></li>
+                        <li><a href="cart.html">Cart<i class="fa-solid fa-cart-arrow-down"></i></a></li>
+                        <li><a href="Login.html">Login <i class="fa-solid fa-arrow-right-from-bracket"></i></a></li>
+
+                        <!-- <i class="fa-solid fa-cart-arrow-down"></i> -->
+
+                        <!-- <i class="fa-solid fa-arrow-right-from-bracket"></i> -->
+
+
+
+                </ul>
+                </div>
+
+
+
+            </nav>
+
+
+         </header>
+         <!-- header section completed -->
+
+         <!-- this is a cart section -->
+
+         <section class="cart"><br> <br>
+            <table >
+                <thead>
+                    <th>Item</th>
+                    <th>Price</th>
+                    <th>Qty</th>
+                    <th>Total</th>
+                    <th>Remove</th>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td class="item">
+                            <img src="/Bite-box/imeges/burger image.png" alt="">
+                            <div>
+                                <h4>Burger</h4>
+                                <p>Cheesy Burger</p>
+                            </div>
+
+                        </td>
+                        <td>₹.199</td>
+                        <td>
+                           <div class="qty-box">
+                            <button>-</button>
+                            <span>1</span>
+                            <button>+</button>
+                           </div>
+                        </td>
+                        <td>₹.199</td>
+                        <td>
+                            <button class="remove">x</button>
+                        </td>
+                    </tr>
+                    <tr class="grand-total">
+                         <td colspan="3">Grand totel</td>
+                         <td>₹.199</td>
+                         <td><button>Procced</button></td>
+                    </tr>
+                   
+                </tbody>
+
+                 <tbody>
+                    <tr>
+                        <td class="item">
+                            <img src="/Bite-box/imeges/chicken biryani image.jpg" alt="">
+                            <div>
+                                <h4>chicken biryani</h4>
+                                <p>spacy biryani</p>
+                            </div>
+
+                        </td>
+                        <td>₹.250</td>
+                        <td>
+                           <div class="qty-box">
+                            <button>-</button>
+                            <span>1</span>
+                            <button>+</button>
+                           </div>
+                        </td>
+                        <td>₹.250</td>
+                        <td>
+                            <button class="remove">x</button>
+                        </td>
+                    </tr>
+                    <tr class="grand-total">
+                         <td colspan="3">Grand totel</td>
+                         <td>₹.250</td>
+                         <td><button>Procced</button></td>
+                    </tr>
+                   
+                </tbody>
+
+                <tbody>
+                    <tr>
+                        <td class="item">
+                            <img src="/Bite-box/imeges/paneer masala image.jpg" alt="">
+                            <div>
+                                <h4>paneer masala</h4>
+                                <p>Paneer Masala is a rich and flavorful Indian curry made with soft paneer cubes cooked in a spicy tomato-based gravy.</p>
+                            </div>
+
+                        </td>
+                        <td>₹.199</td>
+                        <td>
+                           <div class="qty-box">
+                            <button>-</button>
+                            <span>1</span>
+                            <button>+</button>
+                           </div>
+                        </td>
+                        <td>₹.199</td>
+                        <td>
+                            <button class="remove">x</button>
+                        </td>
+                    </tr>
+                    <tr class="grand-total">
+                         <td colspan="3">Grand totel</td>
+                         <td>₹.250</td>
+                         <td><button>Procced</button></td>
+                    </tr>
+                   
+                </tbody>
+            </table>
+         </section>
     
 </body>
 </html>
