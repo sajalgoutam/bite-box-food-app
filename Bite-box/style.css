@@ -57,7 +57,7 @@ nav a.action{
 
 .hero{
     height: 90vh;
-    background-image: url("/Bite-box/food\ banner.jpg");
+    background-image: url("food banner.jpg");
     display: flex;
     justify-content: center;
     align-items: center;
